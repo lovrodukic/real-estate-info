@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Info</title>
-    <link rel="stylesheet" href="{{ url_for('static',
-      filename='styles.css') }}">
+    <title>API</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   </head>
   <body>
     <nav class="navbar">
@@ -14,17 +13,17 @@
     </nav>
 
     <div class="container">
-      <h2>Property Summarizer</h2>
+      <h2>API Testing</h2>
       <form id="address-form">
         <div class="property-input">
           <p>Enter property address:</p>
           <input type="text" id="address" name="address"
-            placeholder="1600 Amphitheatre Pkwy, Mountain View, CA" required>
+            placeholder="Enter address for testing..." required>
           <button type="submit">Get Property Info</button>
         </div>
       </form>
       <div id="result"></div>
     </div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='api/script-api.js') }}"></script>
   </body>
 </html>

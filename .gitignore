@@ -1,7 +1,9 @@
 .env
 __pycache__/
+*.pyc
 venv/
 .DS_Store
 *.log
 venv/
 tests/dummy_data.json
+tests/test_rapid_api.py

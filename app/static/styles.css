@@ -1,0 +1,34 @@
+#address {
+  width: 100%;
+  max-width: 300px;
+}
+
+.property-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.property-input p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.property-input button {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+.navbar a:hover {
+  background-color: #aaa;
+  border-radius: 5px;
+}
